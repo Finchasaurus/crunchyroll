@@ -14,4 +14,3 @@ export type AnimationTrack = {
 };
 
 declare const animation_solver: (rig: Identity, tracks: Map<Identity, AnimationTrack>, root: CFrame) => void;
-export default animation_solver;

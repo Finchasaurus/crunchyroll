@@ -1,8 +1,7 @@
 import Rig from "./rig";
 import AnimationAsset from "./roblox/animation_asset";
 
-export * from "./animation_solver";
-export { AnimationTrack } from "./animation_solver";
+export { AnimationTrack, animation_solver as solve_animation } from "./animation_solver";
 export { LimbInfo, Identity as Rig } from "./rig";
 export { Identity as AnimationAsset } from "./roblox/animation_asset";
 

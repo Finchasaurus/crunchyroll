@@ -20,9 +20,6 @@ export type LimbTransform = {
 };
 
 export type Identity = {
-	_limbs: Array<Limb>;
-	_limb_transforms: Array<LimbTransform>;
-	_limb_name_to_index: Map<string, number>;
 	result_coordinate_frames: Map<string, CFrame>;
 };
 
