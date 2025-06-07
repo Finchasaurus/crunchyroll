@@ -26,4 +26,8 @@ export type Identity = {
 	result_coordinate_frames: Map<string, CFrame>;
 };
 
-export declare const create_rig: (root: LimbInfo) => Identity;
+interface Rig {
+	create_rig: (root: LimbInfo) => Identity;
+}
+declare const Rig: Rig;
+export default Rig;
