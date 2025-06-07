@@ -15,3 +15,5 @@ benches/mirrors
 
 # RobloxTS
 node_modules
+out
+*.tsbuildinfo
